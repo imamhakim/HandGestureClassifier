@@ -11,4 +11,6 @@ The features used in this research:
 6. STD
 
 Penjelasan Lebih lanjut untuk masing-masing file program:
-#ft.py 
+
+**#ft.py**
+merupakan program untuk melakukan ekstraksi fitur sesuai fitur yang sudah ditentukan diatas. Fitur yang diekstraksi dapat kita pilih. Contoh: hanya ingin menggunakan 3 fitur saja. Hal tersebut dapat dilakukan untuk penjelas lebih jauh dapat dilihat didalam file **ft.py** secara langsung
