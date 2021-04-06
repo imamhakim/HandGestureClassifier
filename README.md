@@ -9,3 +9,6 @@ The features used in this research:
 4. WL
 5. HP
 6. STD
+
+Penjelasan Lebih lanjut untuk masing-masing file program:
+#ft.py 
