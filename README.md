@@ -1,15 +1,6 @@
 # HandGestureClassifier
 Hand gesture classifier using Support Vector Machine with sEMG Signal.
-Figure out the effect of PCA, LDA and SVD on feature decomposition of sEMG signal classification for hand motion detection using the SVM algorithm.
-
-The features used in this research:
-1. RMS
-2. MAV
-3. SAV
-4. WL
-5. HP
-6. STD
-
+Mencari tahu pengaruh dari penggunaan PCA, LDA, SVD pada pengklasifikasian gerakan tangan menggunakan data sEMG.
 Dataset yang digunakan dapat diakses melalui:
 https://archive.ics.uci.edu/ml/datasets/EMG+data+for+gestures
 
@@ -32,3 +23,6 @@ program untuk membuat pemodelan menggunakan LDA decomposition pada fitur ekstrak
 
 **#PCA_.py**
 program untuk membuat pemodelan menggunakan PCA decomposition pada fitur ekstraksi
+
+**#Folder MODEL**
+folder ini berisi model machine learning SVM yang bisa digunakan untuk langsung memprediksi gerakan tangan. Didalam folder tersebut sudah lengkap dengan metode dekomposisi apa yang digunakan dan berapa banyak komponen yang digunakan. Untuk SVD dan PCA digunakan komponen sebanyak 2,4,8,16 dan 32 komponen. Sedangkan untuk LDA menggunakan 1,2,3,4 dan 5 komponen
